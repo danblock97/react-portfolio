@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { BsFillArrowRightSquareFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
@@ -22,12 +22,12 @@ const Home = () => {
           <Cursor cursorColor="#aaccff" />
         </h1>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#aaccff] hover:border-[#aaccff]">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#aaccff] hover:border-[#aaccff]">
             <Link to="work" smooth={true} duration={500}>
               View Work
             </Link>
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
+            <span>
+              <BsFillArrowRightSquareFill className="ml-3" />
             </span>
           </button>
         </div>

@@ -79,26 +79,26 @@ const Navbar = () => {
 
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center rounded-lg ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/daniel-block-40756b18a/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center rounded-lg ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/danblock97"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center rounded-lg ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:danblock1997@hotmail.co.uk?subject=Application Idea&body=Add your idea"
             >
               Email <HiOutlineMail size={30} />
             </a>
